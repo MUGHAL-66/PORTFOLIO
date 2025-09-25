@@ -13,7 +13,7 @@ const workExperience = [
     status: "Current",
     description: "Developed full-stack web applications with role-based dashboards. Worked on frontends with Angular/React and backends with Node.js/Express. Integrated AI/ML for recommendations and built REST APIs.",
     achievements: ["Delivered portfolio sites, dashboards & apps", "Implemented AI-powered features", "End-to-end full-stack solutions"],
-    technologies: ["React", "Angular", "Node.js", "MongoDB", "Python"]
+    technologies: ["React", "Angular", "Node.js", "MongoDB"]
   },
   {
     id: 2,
@@ -23,7 +23,7 @@ const workExperience = [
     location: "Remote",
     type: "Freelance",
     status: "Current",
-    description: "Built and delivered complete Shopify stores for clients across multiple niches. Customized themes, integrated payment gateways, and optimized SEO.",
+    description: "Built and delivered complete Shopify stores for clients across multiple niches. Customized themes, integrated payment gateways, and optimized SEO. Ensured fast, responsive user experience.",
     achievements: ["10+ Shopify stores delivered", "100% client satisfaction", "Conversion-focused design"],
     technologies: ["Shopify", "Liquid", "API Integration"]
   },
@@ -35,19 +35,24 @@ const workExperience = [
     location: "Remote",
     type: "Freelance",
     status: "Current",
-    description: "Created social media graphics, product mockups, and logos. Enhanced branding for clients through visual content.",
-    achievements: ["20+ design projects delivered", "Increased engagement with visuals", "Brand identity creation"],
-    technologies: ["Canva", "Adobe Express"]
+    description: "Created social media graphics, product mockups, and logos. Enhanced branding for clients through visual content. Delivered designs on tight deadlines. Focused on clean modern aesthetics.",
+    achievements: [
+      "20+ design projects delivered",
+      "Increased engagement with visuals",
+      "Brand identity creation"
+    ],
+    technologies: ["Canva", "Figma", "Photoshop", "Illustrator"]
   },
+  
   {
     id: 4,
     title: "Shopify Developer (Internship)",
     company: "AU Softs",
-    duration: "March 2025 - May 2025",
-    location: "Gujrat | Remote",
+    duration: "July 2025",
+    location: "Gujrat | Onsite",
     type: "Internship",
-    status: "Upcoming",
-    description: "Assisted in Shopify store setup and theme customization. Worked on product uploads, Liquid edits, and store optimization.",
+    status: "Completed",
+    description: "Assisted in Shopify store setup and theme customization. Worked on product uploads, Liquid edits, and store optimization. Implemented SEO best practices to improve store visibility.",
     achievements: ["Delivered 2+ client projects", "Improved store performance", "Hands-on Shopify Liquid"],
     technologies: ["Shopify", "Liquid", "JavaScript"]
   },
@@ -55,14 +60,31 @@ const workExperience = [
     id: 5,
     title: "Social Media Manager",
     company: "Business Breeds",
-    duration: "March 2023 - February 2025",
+    duration: "2023 - 2025",
     location: "Lahore | Remote",
     type: "Full-time",
     status: "Completed",
     description: "Managed and scaled multiple social media platforms. Designed engaging posts and ad campaigns to grow brand presence. Analyzed insights to improve reach and engagement.",
     achievements: ["Increased engagement by 50%+", "Consistent brand growth", "Multi-platform management"],
     technologies: ["Canva", "Meta Ads", "Analytics Tools"]
+  },
+  {
+    id: 6,
+    title: "Meta Ads Specialist",
+    company: "Freelance",
+    duration: "2024 - Present",
+    location: "Remote",
+    type: "Freelance",
+    status: "Current",
+    description: "Planned and managed Meta (Facebook/Instagram) ad campaigns for multiple Shopify stores in the UK and Pakistan. Created targeted strategies to boost conversions and sales.",
+    achievements: [
+      "Scaled ROAS across multiple stores",
+      "Optimized campaigns for better CTR",
+      "Managed budgets for UK & PK markets"
+    ],
+    technologies: ["Meta Ads", "Facebook/Instagram Ads", "Shopify"]
   }
+  
 ];
 
 export function WorkExperience() {

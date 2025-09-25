@@ -5,6 +5,8 @@
 
   export default defineConfig({
     plugins: [react()],
+    base: '/PORTFOLIO/',   // 👈 yahan repo ka exact name
+
     resolve: {
       extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
       alias: {

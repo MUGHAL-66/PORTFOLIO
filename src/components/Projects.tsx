@@ -184,6 +184,54 @@ const frontendProjects = [
   liveDemo: "https://MUGHAL-66.github.io/GreenLedger/",
   sourceCode: "https://github.com/MUGHAL-66/GreenLedger",
 },
+{
+  id: 14,
+  title: "Responza – Modern Survey & Form Platform",
+  description:
+    "Responza is a sleek, fully responsive survey and form-management web application. Built with a React-driven frontend, it lets users create, distribute, and analyze surveys in real time with intuitive dashboards and smooth interactions.",
+  techStack: [
+    "React 18",
+    "TypeScript",
+    "Vite",
+    "Tailwind CSS"
+  ],
+  image:
+    "https://images.unsplash.com/photo-1587116987844-bd3d2f866f16?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", // Replace with actual screenshot URL
+  liveDemo: "https://MUGHAL-66.github.io/Responza/",
+  sourceCode: "https://github.com/MUGHAL-66/Responza",
+},
+{
+  id: 15,
+  title: "NearNow – Hyper-Local Event Discovery",
+  description:
+    "NearNow is a modern, mobile-first event-discovery web app designed to connect neighbors with live happenings in their area. Users can browse curated categories, RSVP, and engage with organizers in real time.",
+  techStack: [
+    "React 18",
+    "TypeScript",
+    "Vite",
+    "Tailwind CSS"
+  ],
+  image:
+    "https://images.unsplash.com/photo-1621112904887-419379ce6824?q=80&w=872&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", // Replace with actual screenshot URL
+  liveDemo: "https://MUGHAL-66.github.io/NearNow/",
+  sourceCode: "https://github.com/MUGHAL-66/NearNow",
+},
+{
+  id: 16,
+  title: "InspectPro – AI-Powered Food Safety Portal",
+  description:
+    "InspectPro is an advanced, AI-driven food safety inspection portal for agencies and restaurant chains. This React-based frontend enables inspectors to capture data, generate compliance reports, and monitor analytics instantly.",
+  techStack: [
+    "React 18",
+    "TypeScript",
+    "Vite",
+    "Tailwind CSS"
+  ],
+  image:
+    "https://plus.unsplash.com/premium_photo-1664298447595-f6288c126fe2?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", // Replace with actual screenshot URL
+  liveDemo: "https://MUGHAL-66.github.io/InspectPro/",
+  sourceCode: "https://github.com/MUGHAL-66/InspectPro",
+},
 
 
 ];

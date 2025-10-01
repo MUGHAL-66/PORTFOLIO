@@ -216,11 +216,12 @@ const frontendProjects = [
   liveDemo: "https://MUGHAL-66.github.io/NearNow/",
   sourceCode: "https://github.com/MUGHAL-66/NearNow",
 },
+
 {
-  id: 16,
-  title: "InspectPro – AI-Powered Food Safety Portal",
+  id: 17,
+  title: "Hustle App – Modern React Web Application",
   description:
-    "InspectPro is an advanced, AI-driven food safety inspection portal for agencies and restaurant chains. This React-based frontend enables inspectors to capture data, generate compliance reports, and monitor analytics instantly.",
+    "Hustle App is a modern finance and productivity platform tailored for freelancers and side-hustlers. Built with React and TypeScript, it helps users manage income, expenses, goals, and tax estimates in one place With beautiful charts, responsive UI, and smooth animations.",
   techStack: [
     "React 18",
     "TypeScript",
@@ -228,9 +229,25 @@ const frontendProjects = [
     "Tailwind CSS"
   ],
   image:
-    "https://plus.unsplash.com/premium_photo-1664298447595-f6288c126fe2?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", // Replace with actual screenshot URL
-  liveDemo: "https://MUGHAL-66.github.io/InspectPro/",
-  sourceCode: "https://github.com/MUGHAL-66/InspectPro",
+    "https://images.unsplash.com/photo-1556761175-129418cb2dfe?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", // Replace with actual screenshot URL
+  liveDemo: "https://MUGHAL-66.github.io/HustleLedger/",
+  sourceCode: "https://github.com/MUGHAL-66/HustleLedger",
+},
+{
+  id: 18,
+  title: "QuickHood – Hyper-Local Delivery Platform",
+  description:
+    "QuickHood is a hyper-local delivery platform connecting customers with nearby artisans, bakers, florists, and home cooks. Built with modern React tooling, it emphasizes community-driven experiences, offering fresh, handcrafted, and authentic products from small local vendors.",
+  techStack: [
+    "React 18",
+    "TypeScript",
+    "Vite",
+    "Tailwind CSS"
+  ],
+  image:
+    "https://images.unsplash.com/photo-1662899311670-7e6bbe986166?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", // Replace with actual screenshot URL
+  liveDemo: "https://MUGHAL-66.github.io/QuickHood/",
+  sourceCode: "https://github.com/MUGHAL-66/QuickHood",
 },
 
 

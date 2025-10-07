@@ -262,7 +262,7 @@ const frontendProjects = [
     "HTML"
   ],
   image:
-    "https://images.unsplash.com/photo-1580281657521-6a0efcb6a7a9?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0", // replace with actual project screenshot
+    "https://images.unsplash.com/photo-1576602976047-174e57a47881?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", // replace with actual project screenshot
   liveDemo: "https://MUGHAL-66.github.io/PharmaTrack/",
   sourceCode: "https://github.com/MUGHAL-66/PharmaTrack",
 },
@@ -280,7 +280,7 @@ const frontendProjects = [
     "HTML"
   ],
   image:
-    "https://images.unsplash.com/photo-1618354691417-d3e4c660b706?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0", // replace with actual project screenshot
+    "https://images.unsplash.com/photo-1611048268330-53de574cae3b?q=80&w=872&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", // replace with actual project screenshot
   liveDemo: "https://MUGHAL-66.github.io/Ethereal-Wardrobe/",
   sourceCode: "https://github.com/MUGHAL-66/Ethereal-Wardrobe",
 },

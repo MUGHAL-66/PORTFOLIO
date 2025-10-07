@@ -287,7 +287,7 @@ const frontendProjects = [
 
 {
   id: 19,
-  title: "PathWise",
+  title: "Pathwise",
   description:
     "PathWise is a modern luxury-style frontend for an AI Career Counsellor platform. It includes a responsive landing page, user authentication, interactive dashboard, multi-step assessment forms, and a result visualization interface — all crafted with a premium and accessible design aesthetic.",
   techStack: [

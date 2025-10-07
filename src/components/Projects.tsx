@@ -299,8 +299,8 @@ const frontendProjects = [
   ],
   image:
     "https://images.unsplash.com/photo-1556157382-97eda2d62296?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0", // replace with actual project screenshot
-  liveDemo: "https://MUGHAL-66.github.io/PathWise/",
-  sourceCode: "https://github.com/MUGHAL-66/PathWise",
+  liveDemo: "https://MUGHAL-66.github.io/Pathwise/",
+  sourceCode: "https://github.com/MUGHAL-66/Pathwise",
 },
 
 

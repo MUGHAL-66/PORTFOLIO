@@ -249,6 +249,59 @@ const frontendProjects = [
   liveDemo: "https://MUGHAL-66.github.io/QuickHood/",
   sourceCode: "https://github.com/MUGHAL-66/QuickHood",
 },
+{
+  id: 17,
+  title: "PharmaTrack",
+  description:
+    "PharmaTrack is a modern and professional Pharmacy Management System frontend designed in Figma. It features split-screen login/signup pages, an intuitive medicine inventory dashboard, sales tracking, analytics panels, and fully responsive UI components crafted for pharmacy operations and healthcare management interfaces.",
+  techStack: [
+    "TypeScript",
+    "CSS",
+    "React",
+    "Vite",
+    "HTML"
+  ],
+  image:
+    "https://images.unsplash.com/photo-1580281657521-6a0efcb6a7a9?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0", // replace with actual project screenshot
+  liveDemo: "https://MUGHAL-66.github.io/PharmaTrack/",
+  sourceCode: "https://github.com/MUGHAL-66/PharmaTrack",
+},
+
+{
+  id: 18,
+  title: "Ethereal Wardrobe",
+  description:
+    "Ethereal Wardrobe is a modern clothing e-commerce frontend inspired by Figma design principles. It offers an elegant and responsive interface for men's and women's fashion collections, featuring sleek product grids, banners, and a seamless shopping experience — future-ready for Shopify and Node.js integration.",
+  techStack: [
+    "React",
+    "Vite",
+    "TypeScript",
+    "CSS",
+    "HTML"
+  ],
+  image:
+    "https://images.unsplash.com/photo-1618354691417-d3e4c660b706?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0", // replace with actual project screenshot
+  liveDemo: "https://MUGHAL-66.github.io/Ethereal-Wardrobe/",
+  sourceCode: "https://github.com/MUGHAL-66/Ethereal-Wardrobe",
+},
+
+{
+  id: 19,
+  title: "PathWise",
+  description:
+    "PathWise is a modern luxury-style frontend for an AI Career Counsellor platform. It includes a responsive landing page, user authentication, interactive dashboard, multi-step assessment forms, and a result visualization interface — all crafted with a premium and accessible design aesthetic.",
+  techStack: [
+    "TypeScript",
+    "CSS",
+    "HTML",
+    "React",
+    "Vite"
+  ],
+  image:
+    "https://images.unsplash.com/photo-1556157382-97eda2d62296?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0", // replace with actual project screenshot
+  liveDemo: "https://MUGHAL-66.github.io/PathWise/",
+  sourceCode: "https://github.com/MUGHAL-66/PathWise",
+},
 
 
 ];
@@ -329,6 +382,7 @@ const fullStackProjects = [
       "https://images.unsplash.com/photo-1589561253898-768105ca91a8?q=80&w=869&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     sourceCode: "https://github.com/MUGHAL-66/DailySpark",
 },
+
 
 
 

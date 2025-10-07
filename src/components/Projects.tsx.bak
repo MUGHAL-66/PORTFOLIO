@@ -1,3 +1,4 @@
+import React from "react";
 import {
   ExternalLink,
   Github,
@@ -7,61 +8,6 @@ import { Card } from "./ui/card";
 import { Button } from "./ui/button";
 import { Badge } from "./ui/badge";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
-
-// Shopify Projects - Custom Shopify store development
-const shopifyProjects = [
-  {
-    id: 1001,
-    title: "TrendoraUK",
-    description:
-      "A modern UK-based Shopify pet store offering premium pet accessories, cozy beds, and grooming essentials. Designed and developed as a fully customizable Shopify theme tailored for my client’s needs — featuring custom sections, announcement sliders, and an optimized user experience for higher conversions.",
-    techStack: [
-      "Shopify",
-      "Liquid",
-      "HTML/CSS",
-      "JavaScript",
-      "Swiper.js",
-      "Responsive Design",
-    ],
-    image: "https://images.unsplash.com/photo-1516453734593-8d198ae84bcf?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    liveDemo: "https://trendorauk.com",
-    sourceCode: "",
-  },
-  {
-    id: 1002,
-    title: "Ikhwan Unstitched",
-    description:
-      "A premium Pakistani clothing brand specializing in men’s and women’s unstitched collections. Designed and developed as a fully customizable Shopify store for my fashion industry client — featuring bespoke theme sections, advanced WhatsApp integration, and a seamless, mobile-responsive design for best shopping experience.",
-    techStack: [
-      "Shopify",
-      "Liquid",
-      "HTML/CSS",
-      "Theme Customization",
-      "Responsive Design",
-    ],
-    image: "https://images.unsplash.com/photo-1758264839086-2bdecc06d9a3?q=80&w=435&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    liveDemo: "https://ikhwanunstitched.com",
-    sourceCode: "",
-  },
-  {
-    id: 1003,
-    title: "GlamVision Cosmetics",
-    description:
-      "A modern Pakistani beauty and skincare brand developed as a fully customizable Shopify store for my client. Features elegant product showcases, custom theme sections, promotional banners, and a mobile-optimized layout ensuring a seamless shopping experience. Designed with a focus on brand storytelling and user engagement navigation.",
-    techStack: [
-      "Shopify",
-      "Liquid",
-      "HTML/CSS",
-      "JavaScript",
-      "Theme Customization",
-    ],
-    image:
-      "https://images.unsplash.com/photo-1691187861257-a56c4aa2d7fb?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    liveDemo: "https://kr1nr8-xp.myshopify.com/", // Replace with your Shopify preview link
-    sourceCode: "",
-  },
-  
-];
 
 // Frontend Projects - Your actual portfolio projects
 const frontendProjects = [
@@ -273,7 +219,7 @@ const frontendProjects = [
 },
 
 {
-  id: 116,
+  id: 17,
   title: "Hustle App – Modern React Web Application",
   description:
     "Hustle App is a modern finance and productivity platform tailored for freelancers and side-hustlers. Built with React and TypeScript, it helps users manage income, expenses, goals, and tax estimates in one place With beautiful charts, responsive UI, and smooth animations.",
@@ -289,7 +235,7 @@ const frontendProjects = [
   sourceCode: "https://github.com/MUGHAL-66/HustleLedger",
 },
 {
-  id: 117,
+  id: 18,
   title: "QuickHood – Hyper-Local Delivery Platform",
   description:
     "QuickHood is a hyper-local delivery platform connecting customers with nearby artisans, bakers, florists, and home cooks. Built with modern React tooling, it emphasizes community-driven experiences, offering fresh, handcrafted, and authentic products from small local vendors.",
@@ -305,7 +251,7 @@ const frontendProjects = [
   sourceCode: "https://github.com/MUGHAL-66/QuickHood",
 },
 {
-  id: 118,
+  id: 17,
   title: "PharmaTrack",
   description:
     "PharmaTrack is a modern and professional Pharmacy Management System frontend designed in Figma. It features split-screen login/signup pages, an intuitive medicine inventory dashboard, sales tracking, analytics panels, and fully responsive UI components crafted for pharmacy operations and healthcare management interfaces.",
@@ -323,7 +269,7 @@ const frontendProjects = [
 },
 
 {
-  id: 119,
+  id: 18,
   title: "Ethereal Wardrobe",
   description:
     "Ethereal Wardrobe is a modern clothing e-commerce frontend inspired by Figma design principles. It offers an elegant and responsive interface for men's and women's fashion collections, featuring sleek product grids, banners, and a seamless shopping experience — future-ready for Shopify and Node.js integration.",
@@ -341,7 +287,7 @@ const frontendProjects = [
 },
 
 {
-  id: 120,
+  id: 19,
   title: "Pathwise",
   description:
     "PathWise is a modern luxury-style frontend for an AI Career Counsellor platform. It includes a responsive landing page, user authentication, interactive dashboard, multi-step assessment forms, and a result visualization interface — all crafted with a premium and accessible design aesthetic.",
@@ -358,12 +304,57 @@ const frontendProjects = [
   sourceCode: "https://github.com/MUGHAL-66/Pathwise",
 },
 
+
+];
+
+// Shopify Projects - E-commerce stores built with Shopify
+const shopifyProjects = [
+  {
+    id: 1,
+    title: "TrendoraUK",
+    description:
+      "A modern Shopify pet store offering premium accessories, beds, and grooming essentials. Built with custom sections, announcement sliders, and optimized UX for conversion.",
+    image: "/images/trendorauk-preview.png",
+    techStack: ["Shopify", "Liquid", "JavaScript", "Swiper.js", "Minimog Theme"],
+    liveDemo: "https://trendorauk.com",
+  },
+  {
+    id: 2,
+    title: "Ikhwan Unstitched",
+    description:
+      "An elegant clothing store showcasing men's and women's unstitched collections. Features custom Shopify sections, WhatsApp integration, and responsive product layouts.",
+    image: "/images/ikhwan-preview.png",
+    techStack: ["Shopify", "Liquid", "HTML/CSS", "Theme Customization", "Responsive Design"],
+    liveDemo: "https://ikhwanunstitched.com",
+  },
 ];
 
 // Full-Stack Projects - Complete web applications with backend
+// Shopify Projects - E-commerce stores built with Shopify
+const shopifyProjects = [
+  {
+    id: 1,
+    title: "TrendoraUK",
+    description:
+      "A modern Shopify pet store offering premium accessories, beds, and grooming essentials. Built with custom sections, announcement sliders, and optimized UX for conversion.",
+    image: "/images/trendorauk-preview.png",
+    techStack: ["Shopify", "Liquid", "JavaScript", "Swiper.js", "Minimog Theme"],
+    liveDemo: "https://trendorauk.com",
+  },
+  {
+    id: 2,
+    title: "Ikhwan Unstitched",
+    description:
+      "An elegant clothing store showcasing men's and women's unstitched collections. Features custom Shopify sections, WhatsApp integration, and responsive product layouts.",
+    image: "/images/ikhwan-preview.png",
+    techStack: ["Shopify", "Liquid", "HTML/CSS", "Theme Customization", "Responsive Design"],
+    liveDemo: "https://ikhwanunstitched.com",
+  },
+];
+
 const fullStackProjects = [
   {
-    id: 2001,
+    id: 12,
     title: "Calculator App",
     description:
       "An interactive calculator web application built using HTML, CSS, and JavaScript. This repository contains the code for a sleek and user-friendly calculator interface, allowing users to perform basic arithmetic operations seamlessly within their web browser.",
@@ -379,7 +370,7 @@ const fullStackProjects = [
   },
 
 {
-    id: 2002,
+    id: 13,
     title: "Login Form",
     description:
       "This repository contains a simple and responsive login form created using HTML, CSS, and JavaScript. The form includes basic validation for email format and password length, implemented with JavaScript. Its clean and user-friendly design.",
@@ -394,7 +385,7 @@ const fullStackProjects = [
 },
 
   {
-    id: 2003,
+    id: 14,
     title: "Adab-e-Jahan",
     description:
       "Design (Angular) for a digital library where writers can upload and sell books.Users can read, download, or purchase books seamlessly. The platform offers a clean and intuitive interface for easy navigation.Designed to provide a seamless reading.",
@@ -409,7 +400,7 @@ const fullStackProjects = [
     sourceCode: "https://github.com/MUGHAL-66/Adab-e-jahan",
 },
   {
-    id: 2004,
+    id: 15,
     title: "Student Evaluation System",
     description:
       "A C# project for evaluating student performance and managing academic records.Teachers can enter grades, track progress, and generate detailed evaluation reports. The system streamlines assessment processes and improves data accuracy.",
@@ -423,7 +414,7 @@ const fullStackProjects = [
     sourceCode: "https://github.com/MUGHAL-66/SE_Project-Student-Evaluation-System",
 },
   {
-    id: 2005,
+    id: 16,
     title: "DailySpark",
     description:
       "DailySpark is a modern and interactive motivational quote generator designed to brighten your day with inspiring words. Each time you refresh the page or click the “New Quote” button, it delivers a fresh, uplifting quote to keep you motivated.",  
@@ -439,89 +430,8 @@ const fullStackProjects = [
 
 
 
+
 ];
-
-// Shopify Project Card Component (with Live View button only)
-function ShopifyProjectCard({ project }: { project: any }) {
-  return (
-    <Card className="bg-card border-white/10 overflow-hidden group hover:border-primary/30 transition-all duration-300 transform hover:scale-[1.02] luxury-glow">
-      {/* Project Image */}
-      <div className="relative overflow-hidden">
-        <ImageWithFallback
-          src={project.image}
-          alt={project.title}
-          className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-110"
-        />
-        <div className="absolute inset-0 bg-black/20 group-hover:bg-black/40 transition-all duration-300"></div>
-
-        {/* Project Actions Overlay */}
-        <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-300">
-          <div className="flex space-x-3">
-            <Button
-              size="sm"
-              className="bg-primary hover:bg-primary/90 text-black luxury-glow"
-              asChild
-            >
-              <a
-                href={project.liveDemo}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <ExternalLink className="h-4 w-4 mr-1" />
-                Live View
-              </a>
-            </Button>
-          </div>
-        </div>
-      </div>
-
-      {/* Project Content */}
-      <div className="p-6 space-y-4">
-        <div className="flex items-start justify-between">
-          <h3 className="text-xl text-white group-hover:text-primary transition-colors duration-300">
-            {project.title}
-          </h3>
-          <ArrowUpRight className="h-5 w-5 text-primary opacity-0 group-hover:opacity-100 transition-all duration-300 transform group-hover:translate-x-1 group-hover:-translate-y-1" />
-        </div>
-
-        <p className="text-white/70 text-sm leading-relaxed">
-          {project.description}
-        </p>
-
-        {/* Tech Stack */}
-        <div className="flex flex-wrap gap-2">
-          {project.techStack.map((tech: string) => (
-            <Badge
-              key={tech}
-              variant="secondary"
-              className="bg-white/10 text-white/80 hover:bg-primary/20 hover:text-primary transition-colors duration-200 luxury-shimmer"
-            >
-              {tech}
-            </Badge>
-          ))}
-        </div>
-
-        {/* Project Links */}
-        <div className="flex space-x-3 pt-2">
-          <Button
-            size="sm"
-            variant="ghost"
-            className="text-primary hover:text-primary/80 p-0 transition-all duration-300"
-            asChild
-          >
-            <a
-              href={project.liveDemo}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Live View
-            </a>
-          </Button>
-        </div>
-      </div>
-    </Card>
-  );
-}
 
 // Frontend Project Card Component (with Live Demo and View Code)
 function ProjectCard({ project }: { project: any }) {
@@ -636,6 +546,106 @@ function ProjectCard({ project }: { project: any }) {
 }
 
 // Full-Stack Project Card Component (only View Code button)
+// Shopify Project Card Component (with Live Demo button)
+function ShopifyProjectCard({ project }: { project: any }) {
+  return (
+    <Card className="bg-card border-white/10 overflow-hidden group hover:border-primary/30 transition-all duration-300 transform hover:scale-[1.02] luxury-glow">
+      {/* Project Image */}
+      <div className="relative overflow-hidden">
+        <ImageWithFallback
+          src={project.image}
+          alt={project.title}
+          className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-110"
+        />
+        <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-4">
+          <div className="flex gap-2">
+            {project.liveDemo && (
+              <a
+                href={project.liveDemo}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-primary/10 backdrop-blur-sm border border-primary/20 text-primary hover:bg-primary/20 transition-colors rounded-full text-sm font-medium"
+              >
+                <ExternalLink className="w-3.5 h-3.5" />
+                Live Demo
+              </a>
+            )}
+          </div>
+        </div>
+      </div>
+
+      {/* Project Info */}
+      <div className="p-6">
+        <h3 className="text-xl font-semibold text-white mb-2">{project.title}</h3>
+        <p className="text-white/70 text-sm mb-4 line-clamp-3">{project.description}</p>
+        
+        {/* Tech Stack */}
+        <div className="flex flex-wrap gap-2 mb-4">
+          {project.techStack.map((tech: string) => (
+            <Badge
+              key={tech}
+              variant="secondary"
+              className="text-xs font-mono bg-white/5 text-white/70 border-white/5"
+            >
+              {tech}
+            </Badge>
+          ))}
+        </div>
+      </div>
+    </Card>
+  );
+}
+
+// Shopify Project Card Component (with Live Demo button)
+function ShopifyProjectCard({ project }: { project: any }) {
+  return (
+    <Card className="bg-card border-white/10 overflow-hidden group hover:border-primary/30 transition-all duration-300 transform hover:scale-[1.02] luxury-glow">
+      {/* Project Image */}
+      <div className="relative overflow-hidden">
+        <ImageWithFallback
+          src={project.image}
+          alt={project.title}
+          className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-110"
+        />
+        <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-4">
+          <div className="flex gap-2">
+            {project.liveDemo && (
+              <a
+                href={project.liveDemo}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-primary/10 backdrop-blur-sm border border-primary/20 text-primary hover:bg-primary/20 transition-colors rounded-full text-sm font-medium"
+              >
+                <ExternalLink className="w-3.5 h-3.5" />
+                Live Demo
+              </a>
+            )}
+          </div>
+        </div>
+      </div>
+
+      {/* Project Info */}
+      <div className="p-6">
+        <h3 className="text-xl font-semibold text-white mb-2">{project.title}</h3>
+        <p className="text-white/70 text-sm mb-4 line-clamp-3">{project.description}</p>
+        
+        {/* Tech Stack */}
+        <div className="flex flex-wrap gap-2 mb-4">
+          {project.techStack.map((tech: string) => (
+            <Badge
+              key={tech}
+              variant="secondary"
+              className="text-xs font-mono bg-white/5 text-white/70 border-white/5"
+            >
+              {tech}
+            </Badge>
+          ))}
+        </div>
+      </div>
+    </Card>
+  );
+}
+
 function FullStackProjectCard({ project }: { project: any }) {
   return (
     <Card className="bg-card border-white/10 overflow-hidden group hover:border-primary/30 transition-all duration-300 transform hover:scale-[1.02] luxury-glow">
@@ -709,22 +719,10 @@ function FullStackProjectCard({ project }: { project: any }) {
               target="_blank"
               rel="noopener noreferrer"
             >
-              View Code
-            </a>
-          </Button>
-        </div>
       </div>
-    </Card>
-  );
-}
 
-export function Projects() {
-  return (
-    <section
-      id="projects"
-      className="py-20 relative overflow-hidden"
-    >
-      {/* Background Elements */}
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        {shopifyProjects.map((project, index) => (
       <div className="absolute inset-0 opacity-5">
         <div className="absolute top-32 left-20 w-96 h-96 bg-primary rounded-full blur-3xl luxury-float"></div>
         <div
@@ -747,31 +745,6 @@ export function Projects() {
               design
             </p>
             <div className="w-24 h-[3px] bg-gradient-to-r from-primary via-primary/50 to-transparent rounded-full mx-auto luxury-shimmer"></div>
-          </div>
-
-          {/* Shopify Projects Section */}
-          <div className="space-y-8 luxury-slide-up">
-            <div className="text-center space-y-4">
-              <h3 className="text-2xl md:text-3xl text-white luxury-glow">
-                Shopify Projects
-              </h3>
-              <div className="w-20 h-[2px] bg-gradient-to-r from-primary via-primary/50 to-transparent rounded-full mx-auto"></div>
-              <p className="text-white/50 max-w-2xl mx-auto">
-                Custom Shopify store development featuring premium themes, custom sections, and optimized e-commerce experiences
-              </p>
-            </div>
-
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {shopifyProjects.map((project, index) => (
-                <div
-                  key={project.id}
-                  className="luxury-scale-in"
-                  style={{ animationDelay: `${index * 0.1}s` }}
-                >
-                  <ShopifyProjectCard project={project} />
-                </div>
-              ))}
-            </div>
           </div>
 
           {/* Frontend Projects Section */}
@@ -826,6 +799,62 @@ export function Projects() {
                   style={{ animationDelay: `${index * 0.1}s` }}
                 >
                   <FullStackProjectCard project={project} />
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* Shopify Projects Section */}
+          <div
+            className="space-y-8 luxury-slide-up"
+            style={{ animationDelay: "0.6s" }}
+          >
+            <div className="text-center space-y-4">
+              <h3 className="text-2xl md:text-3xl text-white luxury-glow">
+                Shopify Projects
+              </h3>
+              <div className="w-20 h-[2px] bg-gradient-to-r from-primary via-primary/50 to-transparent rounded-full mx-auto"></div>
+              <p className="text-white/50 max-w-2xl mx-auto">
+                Custom e-commerce solutions built with Shopify, featuring custom themes, responsive designs, and optimized user experiences
+              </p>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              {shopifyProjects.map((project, index) => (
+                <div
+                  key={project.id}
+                  className="luxury-scale-in"
+                  style={{ animationDelay: `${index * 0.1}s` }}
+                >
+                  <ShopifyProjectCard project={project} />
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* Shopify Projects Section */}
+          <div
+            className="space-y-8 luxury-slide-up"
+            style={{ animationDelay: "0.6s" }}
+          >
+            <div className="text-center space-y-4">
+              <h3 className="text-2xl md:text-3xl text-white luxury-glow">
+                Shopify Projects
+              </h3>
+              <div className="w-20 h-[2px] bg-gradient-to-r from-primary via-primary/50 to-transparent rounded-full mx-auto"></div>
+              <p className="text-white/50 max-w-2xl mx-auto">
+                Custom e-commerce solutions built with Shopify, featuring custom themes, responsive designs, and optimized user experiences
+              </p>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              {shopifyProjects.map((project, index) => (
+                <div
+                  key={project.id}
+                  className="luxury-scale-in"
+                  style={{ animationDelay: `${index * 0.1}s` }}
+                >
+                  <ShopifyProjectCard project={project} />
                 </div>
               ))}
             </div>

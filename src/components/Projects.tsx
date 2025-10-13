@@ -324,7 +324,7 @@ const frontendProjects = [
 
 {
   id: 119,
-  title: "Ethereal Wardrobe",
+  title: "Ethereal Wardrobe – Modern Fashion E-Commerce UI",
   description:
     "Ethereal Wardrobe is a modern clothing e-commerce frontend inspired by Figma design principles. It offers an elegant and responsive interface for men's and women's fashion collections, featuring sleek product grids, banners, and a seamless shopping experience — future-ready for Shopify and Node.js integration.",
   techStack: [
@@ -342,7 +342,7 @@ const frontendProjects = [
 
 {
   id: 120,
-  title: "Pathwise",
+  title: "Pathwise – AI Career Counseling Platform",
   description:
     "PathWise is a modern luxury-style frontend for an AI Career Counsellor platform. It includes a responsive landing page, user authentication, interactive dashboard, multi-step assessment forms, and a result visualization interface — all crafted with a premium and accessible design aesthetic.",
   techStack: [
@@ -357,6 +357,57 @@ const frontendProjects = [
   liveDemo: "https://MUGHAL-66.github.io/Pathwise/",
   sourceCode: "https://github.com/MUGHAL-66/Pathwise",
 },
+{
+  id: 121,
+  title: "Taskly – Smart Task Management App",
+  description:
+    "Taskly is a clean, modern productivity web app built to help users manage daily tasks efficiently. It features task creation, editing, deletion, and completion tracking, with data persistence using local storage and an intuitive drag-and-drop interface — all wrapped in a sleek, responsive UI design.",
+  techStack: [
+    "React",
+    "Vite",
+    "CSS",
+    "HTML",
+    "TypeScript"
+  ],
+  image:
+    "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0", // replace with your app screenshot
+  liveDemo: "https://MUGHAL-66.github.io/Taskly/",
+  sourceCode: "https://github.com/MUGHAL-66/Taskly",
+},
+
+{
+  id: 122,
+  title: "Stockify – Inventory Management System",
+  description:
+    "Stockify is a premium inventory management system for small shops and businesses. It includes product and supplier management, sales reports, charts, and settings — designed with a luxury blue gradient theme, elegant animations, and responsive layouts for both desktop and mobile interfaces.",
+  techStack: [
+    "React",
+    "Vite",
+    "Tailwind CSS",
+    "TypeScript",
+  ],
+  image:
+    "https://images.unsplash.com/photo-1561070791-2526d30994b5?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0", // replace with your app screenshot
+  liveDemo: "https://MUGHAL-66.github.io/Stockify/",
+  sourceCode: "https://github.com/MUGHAL-66/Stockify",
+},
+{
+  id: 123,
+  title: "OptiCommerce – AI E-Commerce Optimizer",
+  description:
+    "OptiCommerce is an AI-powered e-commerce optimization platform that helps online sellers improve product visibility, sales, and marketing efficiency. It includes dashboards for SEO insights, product analytics, and marketing automation — designed with a luxury theme.",
+  techStack: [
+    "React",
+    "Vite",
+    "Tailwind CSS",
+    "TypeScript",
+  ],
+  image:
+    "https://images.unsplash.com/photo-1711097383282-28097ae16b1d?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=870", // replace with OptiCommerce screenshot if available
+  liveDemo: "https://MUGHAL-66.github.io/OptiCommerce/",
+  sourceCode: "https://github.com/MUGHAL-66/OptiCommerce",
+},
+
 
 ];
 

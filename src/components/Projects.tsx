@@ -407,7 +407,22 @@ const frontendProjects = [
   liveDemo: "https://MUGHAL-66.github.io/OptiCommerce/",
   sourceCode: "https://github.com/MUGHAL-66/OptiCommerce",
 },
-
+{
+  id: 124,
+  title: "MyZenSpace – Mindfulness & Relaxation App",
+  description:
+    "MyZenSpace is a mindfulness and relaxation web app built with React, TypeScript, and Framer Motion. It helps users relax with guided breathing, sound therapy, and 3D visualizations — offering a serene experience through elegant silver-orange-yellow gradients.",
+  techStack: [
+    "React",
+    "Vite",
+    "Tailwind CSS",
+    "TypeScript",
+  ],
+  image:
+    "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0",
+  liveDemo: "https://MUGHAL-66.github.io/MyZenSpace/",
+  sourceCode: "https://github.com/MUGHAL-66/MyZenSpace",
+},
 
 ];
 

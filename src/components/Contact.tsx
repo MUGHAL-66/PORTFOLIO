@@ -21,7 +21,7 @@ const contactLinks = [
     icon: Linkedin,
     label: "LinkedIn",
     value: "/in/UsmanHassan",
-    href: "https://linkedin.com/in/UsmanHassan",
+    href: "https://linkedin.com/in/usman-hassan-b6a500318",
   },
   {
     icon: Github,

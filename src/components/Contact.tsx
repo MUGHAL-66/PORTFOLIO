@@ -18,11 +18,11 @@ const contactLinks = [
     href: "mailto:dev.usman11@gmail.com",
   },
   {
-    icon: Linkedin,
-    label: "LinkedIn",
-    value: "/in/UsmanHassan",
-    href: "https://linkedin.com/in/usman-hassan-b6a500318",
-  },
+  icon: Linkedin,
+  label: "LinkedIn",
+  value: "/in/usmanali66",
+  href: "https://www.linkedin.com/in/usmanali66",
+},
   {
     icon: Github,
     label: "GitHub",
